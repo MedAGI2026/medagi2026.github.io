@@ -25,7 +25,7 @@
           <div id="intro-title" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">MedAGI</div>
           <hr class="title-deco" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
           <div class="workshop-description" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
-            MICCAI 2026 4rd International Workshop on<br> Foundation Models for General Medical AI
+            MICCAI 2026 4th International Workshop on<br> Foundation Models for General Medical AI
           </div>
           <div class="workshop-time" v-bind:class="{'hide-description' : this.$data.page !=='Home'}">
             4-8 October 2026, ABU DHABI
@@ -76,9 +76,17 @@
         class="navigation-tab"
         v-on:click="changeMenuBtn" 
         v-bind:class="{'selected-tab' : this.$data.page=='Sponsors'}">Sponsors</router-link>
-      <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2023</a>
+      <!-- <a href="http://medagi2023.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2023</a>
       <a href="http://medagi2024.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2024</a>
-      <a href="https://medagi2025.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2025</a>
+      <a href="https://medagi2025.github.io/#/" target="_blank" class="navigation-tab">Visit MedAGI 2025</a> -->
+      <div class="navigation-tab dropdown">
+        <span class="dropdown-title">Previous MedAGI ▼</span>
+        <div class="dropdown-content">
+          <a href="http://medagi2023.github.io/#/" target="_blank">MedAGI 2023</a>
+          <a href="http://medagi2024.github.io/#/" target="_blank">MedAGI 2024</a>
+          <a href="https://medagi2025.github.io/#/" target="_blank">MedAGI 2025</a>
+        </div>
+      </div>
     </nav>
   </div>  
   <!-- Navigation End -->
@@ -166,6 +174,62 @@ export default {
 </script>
 
 <style>
+
+/* 下拉菜单基础样式 */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9); /* 配合网站深色调 */
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  z-index: 100; /* 确保在最上层 */
+  border-radius: 4px;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%); /* 居中对齐 */
+}
+
+.dropdown-content a {
+  color: #fff !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #444;
+  color: yellow !important;
+}
+
+/* 鼠标悬停显示 */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* 针对移动端 (max-width: 767px) 的特殊处理 */
+@media screen and (max-width: 767px) {
+  .dropdown-content {
+    position: static; /* 移动端展开时不悬浮 */
+    display: block; /* 默认显示或改为点击显示 */
+    background-color: transparent;
+    box-shadow: none;
+    transform: none;
+    margin-top: 10px;
+  }
+  .dropdown-title {
+    font-weight: bold;
+    color: yellow;
+  }
+}
+
 html, body {
   margin: 0;
   border: 0;
