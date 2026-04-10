@@ -39,6 +39,11 @@
             <div class="belong">Shanghai AI Laboratory</div>
           </div>
           <div class="card">
+            <img src="@/assets/profile/Yangming_Ou.png" alt="" class="profile color-profile">
+            <div class="name">Yangming Ou</div>
+            <div class="belong">Harvard Medical School</div>
+          </div>
+          <div class="card">
           </div>
           <div class="card">
           </div>
