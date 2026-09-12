@@ -1,0 +1,122 @@
+[
+    {
+        "oral1" : [
+            {
+                "name": "CMRVision: A Foundation Model for Cardiac MR Image Analysis",
+                "authors": "Athira J Jacob, Puneet Sharma, Daniel Rueckert",
+                "id": "O1",
+                "posters" : false
+                },
+                {
+                "name": "A Benchmark of (MRI-) Foundation Models to Predict IDH Mutational Status in Glioma",
+                "authors": "Nathan Hollet, Elise Robinson, Efthymios Georgiou, Uri Nahum, Ekin Ermis, Sarah Brueningk",
+                "id": "O2",
+                "posters" : false
+                },
+                {
+                "name": "Semi-Supervised Few-Shot Adaptation of Vision-Language Models",
+                "authors": "Julio Silva-Rodríguez, Ender Konukoglu",
+                "id": "O3",
+                "posters" : false
+                }
+            ],
+        "oral2":[
+                {
+                "name": "Specializing Foundation Models via Mixture of Low-Rank Experts for Comprehensive Head CT Analysis",
+                "authors": "Youngjin Yoo, Han Liu, Bogdan Georgescu, Yanbo Zhang, Sasa Grbic, Michael Baumgartner, Thomas J. Re, Jyotipriya Das, Poikavila Ullaskrishnan, Eva Eibenberger, Andrei Chekkoury, Uttam K. Bodanapally, Savvas Nicolaou, Pina C. Sanelli, Thomas Schroeppel, Yvonne Lui, Eli Gibson",
+                "id": "O4",
+                "posters" : false
+                },
+                {
+                "name": "MedDocBench: A Benchmark for Medical Document Visual Question Answering",
+                "authors": "J Snehan, Kunal Singh",
+                "id": "O5",
+                "posters" : false
+                },
+                {
+                "name": "Frequency Adapter with SAM for Generalized Medical Image Segmentation",
+                "authors": "Phuoc-Nguyen Bui, Duc-Tai Le, Junghyun Bum, Hyunseung Choo",
+                "id": "O6",
+                "posters" : false
+                }
+        ],
+        "full_length" : [
+            {
+                "name": "U-VLM: Hierarchical Vision Language Modeling for Report Generation",
+                "authors": "Pengcheng Shi, Minghui Zhang, Kehan Song, Jiaqi Liu, Yun Gu, Xinglin Zhang",
+                "id": "P1",
+                "posters" : true
+                },
+                {
+                "name": "A Resource-Constrained Evaluation of Lightweight Adaptation for Cross-Dataset Chest X-ray Report Generation",
+                "authors": "Minji Kim, Seun Kim, Jang-Hwan Choi",
+                "id": "P2",
+                "posters" : true
+                },
+                {
+                "name": "A Comparative Evaluation of Structural MRI Foundation Models for Age, Sex, and Body-Mass Index Predictions",
+                "authors": "Arel Encin, Asa Gilmore, Ariel Rokem, Erin Dickie, Tristan Glatard",
+                "id": "P3",
+                "posters" : false
+                },
+                {
+                "name": "Dense Structural Priors for Sparse Functional Landmark Localization in Surgical Videos",
+                "authors": "Chenyan Jing, Hao Ding, Lalithkumar Seenivasan, Jacob M. Delgado López, Mathias Unberath",
+                "id": "P4",
+                "posters" : false
+                },
+                {
+                "name": "TubeMLLM: A Foundation Model for Topology Knowledge Exploration in Vessel-like Anatomy",
+                "authors": "Yaoyu Liu, Minghui Zhang, Kefan Wang, Xin You, Hanxiao Zhang, Qingbiao Li, Yirong Chen, Yun Gu, Xinglin Zhang",
+                "id": "P5",
+                "posters" : false
+                },
+                {
+                "name": "B-MIM: Biased Masked Image Modeling for Generalizable Segmentation of Fine-Grained Anatomical Structures",
+                "authors": "Sebastián González Mezzano, Karen Sanchez, Jose M. Saavedra, Marcelo Pizarro Tapia, Bernard Ghanem",
+                "id": "P6",
+                "posters" : false
+                },
+                {
+                "name": "TopoMedKD: Shape- and Topology-Aware Distillation of Zero-Shot MedSAM for Compact Medical Image Segmentation",
+                "authors": "Eddardda Ben Loussaief, Mohammed Hossam Ayad, Hatem A. Rashwan, Domenec Puig",
+                "id": "P7",
+                "posters" : false
+                },
+                {
+                "name": "Coherence Is Not a Green Light: The Limits of Self-Consistency as a Label-Free Reliability Proxy for Medical Vision–Language Models",
+                "authors": "Antony Sebastian",
+                "id": "P8",
+                "posters" : false
+                }
+        ],
+        "abstract" : [
+            {
+                "name": "Visual Prompting for Region-Grounded Captioning of Pulmonary Nodules in CT Images Using VLMs",
+                "authors": "Maiko Nagao, Kaito Urata, Atsushi Teramoto, Kazuyoshi Imaizumi, Masashi Kondo, Hiroshi Fujita",
+                "id": "EA1",
+                "posters" : false
+            },
+            {
+                "name": "Toward Agentic Cytology: Integrating Classification and Vision-Language Reporting for Pulmonary Cytology",
+                "authors": "Atsushi Teramoto, Yuka Kiriyama, Natsuki Yazawa, Tetsuya Tsukamoto, Kazuyoshi Imaizumi, Hiroshi Fujita",
+                "id": "EA2",
+                "posters" : false
+            },
+            {
+                "name": "Quantum-Inspired Orthonormal Networks for Sustainable Medical Image Restoration",
+                "authors": "Sayantan Dutta",
+                "id": "EA3",
+                "posters" : false
+            },
+            {
+                "name": "KneeDINO: A Knee MRI Vision Foundation Model using Self-Supervised Learning",
+                "authors": "Eunseo Kim, Hee-Dong Chae, Du Hyun Ro, Dongheon Lee",
+                "id": "EA4",
+                "posters" : false
+            }
+                
+        ]
+    }
+    
+]

@@ -60,11 +60,11 @@
       </div>
 
       <!-- Oral Sessions -->
-      <!-- <div id="oral">
+      <div id="oral">
         <h2>Oral Sessions</h2><hr>
         <table class="table">
           <tr v-for="(item, index) in oral1" :key="index">
-            <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(14:10 - 15:00)</td>
+            <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(8:40 - 9:25)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
@@ -76,7 +76,7 @@
               </td>
           </tr>
           <tr v-for="(item, index) in oral2" :key="index">
-              <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(17:00 - 17:50)</td>
+              <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(11:25 - 12:10)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
@@ -90,12 +90,12 @@
         </table>
 
         
-      </div> -->
+      </div>
       <!-- Oral Sessions End -->
 
 
-      <!-- <div id="poster">
-        <h2>Poster Sessions (15:00 - 16:30)</h2><hr>
+      <div id="poster">
+        <h2>Poster Sessions (9:25 - 10:55)</h2><hr>
         <table class="table">
           <tr>
             <td colspan="2" class="poster-title sticky-header">Full-length Papers</td>
@@ -104,9 +104,9 @@
             <td class="poster-id">{{item['id']}} </td>
             <td class="poster-name">
               {{item['name']}} 
-              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
               </span> 
               
               <span class="oral-authors">{{ item['authors'] }}</span></td>
@@ -121,14 +121,14 @@
           <tr v-for="(item, index) in abstract" :key="index">
             <td class="oral-content">{{item['id']}}</td>
             <td class="oral-content">{{item['name']}}
-              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+              [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
               <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
               </span>
               <span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
         </table>
-      </div> -->
+      </div>
     </div>
   </template>
   
@@ -527,7 +527,7 @@
   </style>
   
 <script>
-import program from "@/assets/info/program_2025.json";
+import program from "@/assets/info/program_2026.json";
 
 export default {
   computed: {

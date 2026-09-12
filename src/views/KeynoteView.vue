@@ -16,7 +16,7 @@
           <div class="profile-box">
             <img src="@/assets/keynotes/Yue_Gao.jpg" class="profile" style="object-position: top;">
             <div class="">
-              <div class="keynote-speaker">Dr. Yue Gao</div>
+              <div class="keynote-speaker">Dr Yue Gao</div>
               <div class="affiliation"><i>Tsinghua University, China</i></div>
             </div>
           </div>
@@ -25,20 +25,20 @@
             <br><b>Bio.</b> Yue Gao is an associate professor in School of Software, Tsinghua University, Beijing, China. His research falls in the field of artificial intelligence and hypergraph learning. He leads the iMoon laboratory. He has large experience in developing hypergraph neural networks and complex interaction networks with a wide range of real-world applications including computer vision and medical image analysis.
           </div>
 				</div>
-				<!-- <div class="keynote-box">
-					<div class="keynote-title">Why Human Clinical Expertise Remains Indispensable in AI Pathology Image Interpretation</div>
+				<div class="keynote-box">
+					<div class="keynote-title">Smart Digital Health: From Foundation Model to Agentic AI to World Model</div>
           <div class="profile-box">
-            <img src="@/assets/keynotes/Jin_Ke.jpg" class="profile">
+            <img src="@/assets/keynotes/Shujun_Wang.jpg" class="profile">
             <div>
-              <div class="keynote-speaker">Dr. Jing Ke</div>
-              <div class="affiliation"><i>Shanghai Jiao Tong University, China</i></div>
+              <div class="keynote-speaker">Dr Shunjun Wang</div>
+              <div class="affiliation"><i>Hong Kong Polytechnic University, China</i></div>
             </div>
           </div>
           <div class="speaker-bio">
-            <b>Abstract.</b> Despite significant advances in AI for pathology image analysis, human clinical expertise remains indispensable for ensuring accuracy, interpretability, and clinical applicability. This talk will examine the essential roles pathologists play in guiding end-to-end AI development, including how their expertise shapes dataset curation, mitigates algorithmic bias, and ensures that AI tools are aligned with real-world clinical decision-making.
-            <br><b>Bio.</b> Jing Ke is a tenured associate professor at Shanghai Jiao Tong University and holds the academic title of Adjunct Senior Lecturer at the University of New South Wales. Her primary research focus is computer-assisted pathology image analysis, with more than fifty published papers in top journals and conferences, including IEEE Transactions on Medical Imaging (TMI), Medical Image Analysis (MedIA), and MICCAI. Also, Jing has extensive commercial experience in GPU technology, having worked with leading companies like AMD. She has also published over ten papers on computer architectures and parallel computing in renowned venues such as MICRO, DAC, and IPDPS., and authored a book on GPU architecture analysis.
+            <b>Abstract.</b> Artificial intelligence in medical imaging is moving from task-specific models toward systems that can perceive multimodal evidence, reason clinically, and forecast disease progression. Using Alzheimer’s disease as a case study, this talk presents a roadmap from foundation models to agentic AI and brain world models. First, multimodal foundation models address fragmented evidence through self-supervised and cross-modal pretraining, supporting downstream tasks despite missing modalities and long-tail combinations. Second, AD-CARE combines large language models, specialist tools, and guidelines to produce evidence-grounded, verifiable diagnostic reports. Evaluations across six datasets demonstrate improved accuracy, subgroup fairness, model compatibility, and clinician efficiency under incomplete real-world inputs. Finally, a generative brain world model represents disease progression as latent drift, enabling personalized forecasting of structural changes over time. Together, these advances suggest a path beyond static prediction toward deployable systems that integrate heterogeneous evidence, explain diagnostic reasoning, and simulate future patient trajectories for earlier intervention and individualized care.
+            <br><b>Bio.</b> Dr. Shujun Wang is an Assistant Professor in the Department of Biomedical Engineering at The Hong Kong Polytechnic University and an affiliated member of the Department of Data Science and Artificial Intelligence. She received her PhD from The Chinese University of Hong Kong and previously conducted research at CUHK and the University of Cambridge. Her research focuses on artificial intelligence for digital health and smart ageing, with particular interests in multimodal foundation models, medical vision-language models, agentic AI, and brain world models for personalized diagnosis and prognosis. She has published more than 50 papers in leading journals and conferences, including Nature Communications, The Lancet Digital Health, IEEE Transactions on Medical Imaging, Medical Image Analysis, NeurIPS, ICML, and CVPR. Her research has received approximately 6,000 citations. She is also a recipient of Best Paper Awards at MICCAI workshops in 2022 and 2025.
           </div>
-				</div> -->
+				</div>
 			</div>
     </div>
     <!-- Preliminary Keynotes End -->
