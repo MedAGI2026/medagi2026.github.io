@@ -67,9 +67,9 @@
             <td v-if="index === 0" :rowspan="oral1.length" class="oral-time">Oral 1<br>(8:40 - 9:25)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                 <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
                 </span> 
                 <span class="oral-authors" v-html="item['authors']"></span>
                 
@@ -79,9 +79,9 @@
               <td v-if="index === 0" :rowspan="oral2.length" class="oral-time">Oral 2<br>(11:25 - 12:10)</td>
               <td class="oral-content">
                 [{{item['id']}}] {{item['name']}}
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                 <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2025/medagi2025.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
                 </span> 
                 <span class="oral-authors" v-html="item['authors']"></span>
                 
