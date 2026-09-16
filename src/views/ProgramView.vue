@@ -69,7 +69,7 @@
                 [{{item['id']}}] {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                 <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                  [<a target="_blank" type="application/pdf" :href="`https://github.com/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
                 </span> 
                 <span class="oral-authors" v-html="item['authors']"></span>
                 
@@ -81,7 +81,7 @@
                 [{{item['id']}}] {{item['name']}}
                 [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                 <span v-if="item['posters']===true">
-                  [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                  [<a target="_blank" type="application/pdf" :href="`https://github.com/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
                 </span> 
                 <span class="oral-authors" v-html="item['authors']"></span>
                 
@@ -106,7 +106,7 @@
               {{item['name']}} 
               [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
                <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://github.com/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
               </span> 
               
               <span class="oral-authors">{{ item['authors'] }}</span></td>
@@ -123,7 +123,7 @@
             <td class="oral-content">{{item['name']}}
               [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/papers/${item['id']}.pdf`">paper</a>]
               <span v-if="item['posters']===true">
-                [<a target="_blank" type="application/pdf" :href="`https://nbviewer.org/github/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
+                [<a target="_blank" type="application/pdf" :href="`https://github.com/MedAGI2026/medagi2026.github.io/blob/main/src/assets/posters/${item['id']}.pdf`">poster</a>]
               </span>
               <span class="oral-authors">{{ item['authors'] }}</span></td>
           </tr>
