@@ -17,7 +17,7 @@
                 "name": "Semi-Supervised Few-Shot Adaptation of Vision-Language Models",
                 "authors": "Julio Silva-Rodríguez, Ender Konukoglu",
                 "id": "O3",
-                "posters" : false
+                "posters" : true
                 }
             ],
         "oral2":[
