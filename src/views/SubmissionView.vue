@@ -200,7 +200,7 @@
         <div id="awards">
           <h2>Awards</h2><hr>
           <div class="awards-contents">
-            The MedAGI 2026 best paper and the honorable mention awards will be given to the two high-quality papers chosen by the award committee.
+            The MedAGI 2026 best paper award will be given to the one high-quality paper chosen by the award committee.
           </div>
         </div>
         <!-- Awards End -->

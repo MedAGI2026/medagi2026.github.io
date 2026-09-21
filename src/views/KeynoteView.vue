@@ -11,7 +11,7 @@
 		<div id="keynotes">
 			<!-- <h2>TBD</h2><hr> -->
 			<div id="keynote-container">
-        <div class="keynote-box">
+        <!-- <div class="keynote-box">
 					<div class="keynote-title">Hypergraph Computation for Medical Data</div>
           <div class="profile-box">
             <img src="@/assets/keynotes/Yue_Gao.jpg" class="profile" style="object-position: top;">
@@ -24,7 +24,7 @@
             <b>Abstract.</b> Structure data and related neural networks have attracted much attention in both research and industrial fields and become very hot topics in these years. It is noted that the world is far more complex than just pairwise connections. Hypergraph, as a generation of graph, is able to formulate such high-order correlations among the data and has been investigated in last decades. In this part, we first introduce the basic concepts and characteristics of hypergraphs. Next, focusing on hypergraph computation, we introduce hypergraph structural modelling, hypergraph structural evolution, and hypergraph neural network models. Finally, we introduce the application of hypergraph computation for medical data.
             <br><b>Bio.</b> Yue Gao is an associate professor in School of Software, Tsinghua University, Beijing, China. His research falls in the field of artificial intelligence and hypergraph learning. He leads the iMoon laboratory. He has large experience in developing hypergraph neural networks and complex interaction networks with a wide range of real-world applications including computer vision and medical image analysis.
           </div>
-				</div>
+				</div> -->
 				<div class="keynote-box">
 					<div class="keynote-title">Smart Digital Health: From Foundation Model to Agentic AI to World Model</div>
           <div class="profile-box">

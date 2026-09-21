@@ -18,16 +18,16 @@
         <h2>Schedule</h2><hr>
         <table class="table">
           <tr>
-            <td class="schedule-time">8:00 - 8:10</td>
+            <td class="schedule-time">8:30 - 8:40</td>
             <td class="schedule-name">Opening Remarks</td>
           </tr>
-          <tr>
+          <!-- <tr>
             <td class="schedule-time">8:10 - 8:40</td>
             <td class="schedule-name">
-              Keynote 1 <!-- : Prof. Jing Ke, Shanghai Jiao Tong University
-              <span class="oral-authors">Why Human Clinical Expertise Remains Indispensable in AI Pathology Image Interpretation</span> -->
+              Keynote 1 : Prof. Jing Ke, Shanghai Jiao Tong University
+              <span class="oral-authors">Why Human Clinical Expertise Remains Indispensable in AI Pathology Image Interpretation</span>
             </td>
-          </tr>
+          </tr> -->
           <tr>
             <td class="schedule-time">8:40 - 9:25</td>
             <td class="schedule-name">Oral Session 1</td>
@@ -40,8 +40,8 @@
           <tr>
             <td class="schedule-time">10:55 - 11:25</td>
             <td class="schedule-name">
-              Keynote 2 <!-- : Prof. Jaewoo Kang, Korea University / AIGEN Sciences Inc. 
-              <span class="oral-authors">AI-driven Drug Discovery in the LLM Era</span> -->
+              Keynote: Prof. Shujun Wang, Hong Kong Polytechnic University 
+              <span class="oral-authors">Smart Digital Health: From Foundation Model to Agentic AI to World Model</span>
             </td>
           </tr>
           <tr>
