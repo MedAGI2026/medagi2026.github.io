@@ -5,13 +5,13 @@
                 "name": "CMRVision: A Foundation Model for Cardiac MR Image Analysis",
                 "authors": "Athira J Jacob, Puneet Sharma, Daniel Rueckert",
                 "id": "O1",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "A Benchmark of (MRI-) Foundation Models to Predict IDH Mutational Status in Glioma",
                 "authors": "Nathan Hollet, Elise Robinson, Efthymios Georgiou, Uri Nahum, Ekin Ermis, Sarah Brueningk",
                 "id": "O2",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "Semi-Supervised Few-Shot Adaptation of Vision-Language Models",
@@ -25,7 +25,7 @@
                 "name": "Specializing Foundation Models via Mixture of Low-Rank Experts for Comprehensive Head CT Analysis",
                 "authors": "Youngjin Yoo, Han Liu, Bogdan Georgescu, Yanbo Zhang, Sasa Grbic, Michael Baumgartner, Thomas J. Re, Jyotipriya Das, Poikavila Ullaskrishnan, Eva Eibenberger, Andrei Chekkoury, Uttam K. Bodanapally, Savvas Nicolaou, Pina C. Sanelli, Thomas Schroeppel, Yvonne Lui, Eli Gibson",
                 "id": "O4",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "MedDocBench: A Benchmark for Medical Document Visual Question Answering",
@@ -63,7 +63,7 @@
                 "name": "Dense Structural Priors for Sparse Functional Landmark Localization in Surgical Videos",
                 "authors": "Chenyan Jing, Hao Ding, Lalithkumar Seenivasan, Jacob M. Delgado López, Mathias Unberath",
                 "id": "P4",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "TubeMLLM: A Foundation Model for Topology Knowledge Exploration in Vessel-like Anatomy",
