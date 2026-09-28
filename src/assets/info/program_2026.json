@@ -31,7 +31,7 @@
                 "name": "MedDocBench: A Benchmark for Medical Document Visual Question Answering",
                 "authors": "J Snehan, Kunal Singh",
                 "id": "O5",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "Frequency Adapter with SAM for Generalized Medical Image Segmentation",
@@ -81,13 +81,13 @@
                 "name": "TopoMedKD: Shape- and Topology-Aware Distillation of Zero-Shot MedSAM for Compact Medical Image Segmentation",
                 "authors": "Eddardda Ben Loussaief, Mohammed Hossam Ayad, Hatem A. Rashwan, Domenec Puig",
                 "id": "P7",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "Coherence Is Not a Green Light: The Limits of Self-Consistency as a Label-Free Reliability Proxy for Medical Vision–Language Models",
                 "authors": "Antony Sebastian",
                 "id": "P8",
-                "posters" : false
+                "posters" : true
                 }
         ],
         "abstract" : [
