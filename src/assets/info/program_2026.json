@@ -37,7 +37,7 @@
                 "name": "Frequency Adapter with SAM for Generalized Medical Image Segmentation",
                 "authors": "Phuoc-Nguyen Bui, Duc-Tai Le, Junghyun Bum, Hyunseung Choo",
                 "id": "O6",
-                "posters" : false
+                "posters" : true
                 }
         ],
         "full_length" : [
@@ -57,7 +57,7 @@
                 "name": "A Comparative Evaluation of Structural MRI Foundation Models for Age, Sex, and Body-Mass Index Predictions",
                 "authors": "Arel Encin, Asa Gilmore, Ariel Rokem, Erin Dickie, Tristan Glatard",
                 "id": "P3",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "Dense Structural Priors for Sparse Functional Landmark Localization in Surgical Videos",
