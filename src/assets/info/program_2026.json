@@ -75,7 +75,7 @@
                 "name": "B-MIM: Biased Masked Image Modeling for Generalizable Segmentation of Fine-Grained Anatomical Structures",
                 "authors": "Sebastián González Mezzano, Karen Sanchez, Jose M. Saavedra, Marcelo Pizarro Tapia, Bernard Ghanem",
                 "id": "P6",
-                "posters" : false
+                "posters" : true
                 },
                 {
                 "name": "TopoMedKD: Shape- and Topology-Aware Distillation of Zero-Shot MedSAM for Compact Medical Image Segmentation",
